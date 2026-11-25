@@ -1,7 +1,7 @@
 {
   "name": "icon-forge-mcp",
   "version": "3.0.0",
-  "description": "Project-aware MCP server for Codex-powered game art generation",
+  "description": "MCP server for generating 2D game UI icons and sprite-style graphics with Codex",
   "type": "module",
   "engines": {
     "node": ">=18"
