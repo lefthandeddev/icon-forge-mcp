@@ -1,14 +1,16 @@
 # IconForge MCP
 
-**A project-aware MCP server for generating game art with Codex image generation.** IconForge turns structured briefs into icons, HUD art, brand marks, banners, textures, and cohesive asset families, then saves validated outputs into your project.
+**A project-aware MCP server for generating 2D game UI icons and sprite-style graphics with Codex image generation.** IconForge turns structured briefs into individual raster images and saves validated outputs into your project. Its main use case is clear, readable icons; it also supports symbol-only brand marks, wide banners, seamless concept textures, and cohesive sets of related graphics.
+
+IconForge generates images rather than building complete game assets. It does not assemble sprite sheets, animation sequences, or 3D models. HUD icons and banners can use either a flat 2D treatment or a restrained stylized 3D look; brand marks and textures are flat 2D.
 
 It uses the Model Context Protocol over stdio and delegates image creation to the locally installed Codex CLI. It has no npm runtime dependencies.
 
 ## What it does
 
 - Builds and validates briefs before starting an image-generation job.
-- Generates focused assets for game interfaces and art workflows.
-- Creates cohesive style sets with shared visual constraints, persistent manifests, and follow-up extensions.
+- Generates individual graphics for game interfaces, especially small HUD icons that remain readable at icon scale.
+- Creates cohesive sets of related graphics with shared visual constraints, persistent manifests, and follow-up extensions.
 - Validates project-relative output paths and generated image files before copying them into the project.
 - Bounds concurrent jobs and runs each generation in an isolated Codex home.
 
@@ -67,7 +69,7 @@ Every target project needs `.omp/icon-forge/project.json`. The example file is i
 
 ## MCP tools
 
-### Focused assets
+### Focused image types
 
 | Tool | Purpose |
 |---|---|
