@@ -1,0 +1,7 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.omp/icon-forge/styles/
+.omp/icon-forge/style-locks/
+.icon-forge-v3/

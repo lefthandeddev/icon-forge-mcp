@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "projectName": "Your Project",
+  "artDirection": "Describe the visual direction, materials, palette, and lighting.",
+  "generatedAssetRoot": "Assets/Art/Generated",
+  "categories": [
+    "ui",
+    "icons",
+    "branding",
+    "environment",
+    "props"
+  ]
+}

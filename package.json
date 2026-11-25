@@ -1,0 +1,30 @@
+{
+  "name": "icon-forge-mcp",
+  "version": "3.0.0",
+  "description": "Project-aware MCP server for Codex-powered game art generation",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lefthandeddev/icon-forge-mcp.git"
+  },
+  "homepage": "https://github.com/lefthandeddev/icon-forge-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/lefthandeddev/icon-forge-mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "codex",
+    "image-generation",
+    "game-development",
+    "game-art"
+  ]
+}
